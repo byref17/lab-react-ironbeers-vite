@@ -1,16 +1,15 @@
-import { Routes, Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
-import HomePage from './pages/HomePage'
-import AllBeersPage from "./pages/AllBeersPage";
-import RandomBeerPage from "./pages/RandomBeerPage";
 import AddBeerPage from "./pages/AddBeerPage";
+import AllBeersPage from "./pages/AllBeersPage";
 import BeerDetailsPage from "./pages/BeerDetailsPage";
+import HomePage from "./pages/HomePage";
+import RandomBeerPage from "./pages/RandomBeerPage";
 
 function App() {
   return (
     <div className="App">
-
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/beers" element={<AllBeersPage />} />
@@ -18,8 +17,6 @@ function App() {
         <Route path="/new-beer" element={<AddBeerPage />} />
         <Route path="/beers/:beerId" element={<BeerDetailsPage />} />
       </Routes>
-
-
     </div>
   );
 }
