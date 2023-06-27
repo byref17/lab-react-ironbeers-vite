@@ -17,14 +17,16 @@ form {
 }
 
 img {
-  width: 100%;
-  height: auto;
+  /* width: 100%; */
+  /* height: auto; */
 }
+
 .beer-card {
   display: flex;
   flex-direction: column;
   max-width: 40rem;
 }
+
 .beer-card__infos {
   margin-inline: 2rem;
 }
@@ -33,10 +35,12 @@ img {
   color: black;
   text-decoration: none;
 }
+
 .beer-card__infos a:hover {
   text-decoration: underline;
 }
 
 .beer-card__infos p {
   color: grey;
+
 }

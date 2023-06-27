@@ -6,10 +6,12 @@ import AllBeersPage from "./pages/AllBeersPage";
 import BeerDetailsPage from "./pages/BeerDetailsPage";
 import HomePage from "./pages/HomePage";
 import RandomBeerPage from "./pages/RandomBeerPage";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/beers" element={<AllBeersPage />} />
@@ -17,6 +19,7 @@ function App() {
         <Route path="/new-beer" element={<AddBeerPage />} />
         <Route path="/beers/:beerId" element={<BeerDetailsPage />} />
       </Routes>
+
     </div>
   );
 }
