@@ -25,31 +25,45 @@ form {
   width: 50px;
 }
 
-img {
-  /* width: 100%; */
-  /* height: auto; */
-}
-
-.beer-card {
+.beer {
   display: flex;
   flex-direction: column;
   max-width: 40rem;
 }
 
-.beer-card__infos {
+.beer__infos {
   margin-inline: 2rem;
 }
 
+.beer__infos a,
 .beer-card__infos a {
   color: black;
   text-decoration: none;
 }
 
+.beer__infos a:hover,
 .beer-card__infos a:hover {
   text-decoration: underline;
 }
 
-.beer-card__infos p {
+.beer__infos p {
   color: grey;
+}
 
+.beer-card {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  gap: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+.beer-card__image {
+  height: 6rem;
+  width: 2rem;
+  object-fit: cover;
+}
+.all-beers {
+  margin: 0 auto;
+  width: 20rem;
 }
