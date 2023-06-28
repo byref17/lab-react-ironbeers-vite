@@ -59,7 +59,7 @@ form {
 }
 
 .beer-card__image {
-  height: 6rem;
+  height: 8rem;
   width: 2rem;
   object-fit: cover;
 }
