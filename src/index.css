@@ -16,6 +16,15 @@ form {
   margin: 20px;
 }
 
+.navbar {
+  background-color: #41e6e6;
+  text-align: center;
+}
+
+.navbar img {
+  width: 50px;
+}
+
 img {
   /* width: 100%; */
   /* height: auto; */

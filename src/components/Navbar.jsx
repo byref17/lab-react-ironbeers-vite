@@ -3,9 +3,11 @@ import homeIcon from "../assets/home-icon.png"
 
 function Navbar() {
     return (
-        <Link to="/">
-            <img src={homeIcon} alt="home" />
-        </Link>
+        <div className="navbar">
+            <Link to="/">
+                <img src={homeIcon} alt="home" />
+            </Link>
+        </div>
     )
 }
 
