@@ -63,7 +63,19 @@ form {
   width: 2rem;
   object-fit: cover;
 }
+
 .all-beers {
   margin: 0 auto;
   width: 20rem;
+}
+
+.beer-card-detail {
+  text-align: left;
+  margin-inline: 450px;
+}
+
+.beer-card-detail img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
